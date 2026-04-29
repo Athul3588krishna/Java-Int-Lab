@@ -7,7 +7,7 @@ class Employee {
 }
 
 public class Main {
-    public static void Employee(String[] args) {
+    public static void main(String[] args) {   // ✅ fixed
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of employees: ");
